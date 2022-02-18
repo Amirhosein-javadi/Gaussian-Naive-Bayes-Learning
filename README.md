@@ -27,4 +27,4 @@ Also note that to get the argmax over P(x|c)P(c), we can choose the digit class 
 
 <img src="https://render.githubusercontent.com/render/math?math=c^* = argmax_{c}(\log P(x|c)+\log P(c))">
 
-Now, let's dive into implementing a **Gaussian Naive Bayes Classifier.**
+The final accuracy on test data (%) : 92.41
