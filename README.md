@@ -22,7 +22,7 @@ Note that because probabilities are very small when dimensionality is high, we a
 
 <img src="https://render.githubusercontent.com/render/math?math=\log{P(x|c) = -\frac{D}{2}\ln(2\pi)-\frac{1}{2}\ln|\Sigma|-\frac{1}{2}(x - \mu)^{T}\Sigma^{-1}(x-\mu)}">
 
-To calculate $\mu$ and $\Sigma$, you can use the **sample** mean and covariance (see [here.](https://en.wikipedia.org/wiki/Sample_mean_and_covariance)) 
+To calculate mu and sigma, you can use the **sample** mean and covariance (see [here.](https://en.wikipedia.org/wiki/Sample_mean_and_covariance)) 
 Also note that to get the argmax over P(x|c)P(c), we can choose the digit class using:
 
 <img src="https://render.githubusercontent.com/render/math?math=c^* = argmax_{c}(\log P(x|c)+\log P(c))">
